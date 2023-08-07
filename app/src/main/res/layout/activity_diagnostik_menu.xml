@@ -1,0 +1,661 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".fragments.DiagnostikMenu">
+
+    <ImageView
+        android:id="@+id/imageView31"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/re" />
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/poppinsbold"
+        android:gravity="center"
+        android:text="@string/diagnostikmenu"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView34"
+        android:layout_width="wrap_content"
+        android:layout_height="240dp"
+        android:layout_marginTop="108dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView29"
+        app:srcCompat="@drawable/line" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout10"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="32dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toStartOf="@+id/imageView34"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView29">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="6dp"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+            <Switch
+                android:id="@+id/switch5"
+                android:layout_width="160dp"
+                android:layout_height="60dp"
+                android:layout_marginStart="10dp"
+
+                android:layout_weight="1"
+                android:fontFamily="@font/poppinsbold"
+                android:text="@string/buton01"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:thumb="@drawable/ellipse1"
+                android:track="@drawable/kompresorswitch" />
+
+            <Switch
+                android:id="@+id/switch6"
+                android:layout_width="160dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/poppinsbold"
+                android:text="@string/buton07"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:thumb="@drawable/ellipse1"
+                android:track="@drawable/kompresorswitch" />
+
+            <Switch
+                android:id="@+id/switch7"
+                android:layout_width="160dp"
+                android:layout_height="60dp"
+                android:layout_marginEnd="10dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/poppinsbold"
+                android:text="@string/buton_13"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:thumb="@drawable/ellipse1"
+                android:track="@drawable/kompresorswitch" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="6dp"
+            android:orientation="horizontal"
+            android:thumb="@drawable/ellipse1"
+            android:track="@drawable/kompresorswitch">
+
+            <Switch
+                android:id="@+id/switch8"
+                android:layout_width="160dp"
+                android:layout_height="60dp"
+                android:layout_marginStart="10dp"
+
+                android:layout_weight="1"
+                android:fontFamily="@font/poppinsbold"
+                android:text="@string/buton_02"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:thumb="@drawable/ellipse1"
+                android:track="@drawable/kompresorswitch" />
+
+            <Switch
+                android:id="@+id/switch9"
+                android:layout_width="160dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/poppinsbold"
+                android:text="@string/buton_08"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:thumb="@drawable/ellipse1"
+                android:track="@drawable/kompresorswitch" />
+
+            <Switch
+                android:id="@+id/switch10"
+                android:layout_width="160dp"
+                android:layout_height="60dp"
+                android:layout_marginEnd="10dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/poppinsbold"
+                android:text="@string/buton_14"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:thumb="@drawable/ellipse1"
+                android:track="@drawable/kompresorswitch" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="6dp"
+            android:orientation="horizontal">
+
+            <Switch
+                android:id="@+id/switch11"
+                android:layout_width="160dp"
+                android:layout_height="60dp"
+                android:layout_marginStart="10dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/poppinsbold"
+                android:text="@string/buton_03"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:thumb="@drawable/ellipse1"
+                android:track="@drawable/kompresorswitch" />
+
+            <Switch
+                android:id="@+id/switch12"
+                android:layout_width="160dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/poppinsbold"
+                android:text="@string/buton_09"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:thumb="@drawable/ellipse1"
+                android:track="@drawable/kompresorswitch" />
+
+            <Switch
+                android:id="@+id/switch13"
+                android:layout_width="160dp"
+                android:layout_height="60dp"
+                android:layout_marginEnd="10dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/poppinsbold"
+                android:text="@string/buton_15"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:thumb="@drawable/ellipse1"
+                android:track="@drawable/kompresorswitch" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="6dp"
+            android:orientation="horizontal">
+
+            <Switch
+                android:id="@+id/switch14"
+                android:layout_width="160dp"
+                android:layout_height="60dp"
+                android:layout_marginStart="10dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/poppinsbold"
+                android:text="@string/buton_04"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:thumb="@drawable/ellipse1"
+                android:track="@drawable/kompresorswitch" />
+
+            <Switch
+                android:id="@+id/switch15"
+                android:layout_width="160dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/poppinsbold"
+                android:text="@string/buton_10"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:thumb="@drawable/ellipse1"
+                android:track="@drawable/kompresorswitch" />
+
+            <Switch
+                android:id="@+id/switch16"
+                android:layout_width="160dp"
+                android:layout_height="60dp"
+                android:layout_marginEnd="10dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/poppinsbold"
+                android:text="@string/buton_16"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:thumb="@drawable/ellipse1"
+                android:track="@drawable/kompresorswitch" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="6dp"
+            android:orientation="horizontal"
+            android:thumb="@drawable/ellipse1"
+            android:track="@drawable/kompresorswitch">
+
+            <Switch
+                android:id="@+id/switch17"
+                android:layout_width="160dp"
+                android:layout_height="60dp"
+                android:layout_marginStart="10dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/poppinsbold"
+                android:text="@string/buton_05"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:thumb="@drawable/ellipse1"
+                android:track="@drawable/kompresorswitch" />
+
+            <Switch
+                android:id="@+id/switch18"
+                android:layout_width="160dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/poppinsbold"
+                android:text="@string/buton_11"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:thumb="@drawable/ellipse1"
+                android:track="@drawable/kompresorswitch" />
+
+            <Switch
+                android:id="@+id/switch19"
+                android:layout_width="160dp"
+                android:layout_height="60dp"
+                android:layout_marginEnd="10dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/poppinsbold"
+                android:text="@string/buton_17"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:thumb="@drawable/ellipse1"
+                android:track="@drawable/kompresorswitch" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="6dp"
+            android:orientation="horizontal"
+            android:thumb="@drawable/ellipse1"
+            android:track="@drawable/kompresorswitch">
+
+            <Switch
+                android:id="@+id/switch20"
+                android:layout_width="160dp"
+                android:layout_height="60dp"
+                android:layout_marginStart="10dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/poppinsbold"
+                android:text="@string/buton_06"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:thumb="@drawable/ellipse1"
+                android:track="@drawable/kompresorswitch" />
+
+            <Switch
+                android:id="@+id/switch21"
+                android:layout_width="160dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/poppinsbold"
+                android:text="@string/buton_12"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:thumb="@drawable/ellipse1"
+                android:track="@drawable/kompresorswitch" />
+
+            <Switch
+                android:id="@+id/switch22"
+                android:layout_width="160dp"
+                android:layout_height="60dp"
+                android:layout_marginEnd="10dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/poppinsbold"
+                android:text="@string/buton_18"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:thumb="@drawable/ellipse1"
+                android:track="@drawable/kompresorswitch" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout9"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="22dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView34"
+        app:layout_constraintTop_toBottomOf="@+id/textView29">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="6dp"
+            android:orientation="horizontal">
+
+            <Switch
+                android:id="@+id/switch44"
+                android:layout_width="160dp"
+                android:layout_height="60dp"
+                android:layout_marginStart="10dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/poppinsbold"
+                android:text="@string/led_01"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:thumb="@drawable/ellipse1"
+                android:track="@drawable/kompresorswitch" />
+
+            <Switch
+                android:id="@+id/switch43"
+                android:layout_width="160dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/poppinsbold"
+                android:text="@string/led_07"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:thumb="@drawable/ellipse1"
+                android:track="@drawable/kompresorswitch" />
+
+            <Switch
+                android:id="@+id/switch42"
+                android:layout_width="160dp"
+                android:layout_height="60dp"
+                android:layout_marginEnd="10dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/poppinsbold"
+                android:text="@string/led_13"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:thumb="@drawable/ellipse1"
+                android:track="@drawable/kompresorswitch" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="6dp"
+            android:orientation="horizontal">
+
+            <Switch
+                android:id="@+id/switch41"
+                android:layout_width="160dp"
+                android:layout_height="60dp"
+                android:layout_marginStart="10dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/poppinsbold"
+                android:text="@string/led_02"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:thumb="@drawable/ellipse1"
+                android:track="@drawable/kompresorswitch" />
+
+            <Switch
+                android:id="@+id/switch40"
+                android:layout_width="160dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/poppinsbold"
+                android:text="@string/led_08"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:thumb="@drawable/ellipse1"
+                android:track="@drawable/kompresorswitch" />
+
+            <Switch
+                android:id="@+id/switch39"
+                android:layout_width="160dp"
+                android:layout_height="60dp"
+                android:layout_marginEnd="10dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/poppinsbold"
+                android:text="@string/led_14"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:thumb="@drawable/ellipse1"
+                android:track="@drawable/kompresorswitch" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="6dp"
+            android:orientation="horizontal"
+            android:thumb="@drawable/ellipse1"
+            android:track="@drawable/kompresorswitch">
+
+            <Switch
+                android:id="@+id/switch38"
+                android:layout_width="160dp"
+                android:layout_height="60dp"
+                android:layout_marginStart="10dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/poppinsbold"
+                android:text="@string/led_03"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:thumb="@drawable/ellipse1"
+                android:track="@drawable/kompresorswitch" />
+
+            <Switch
+                android:id="@+id/switch37"
+                android:layout_width="160dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/poppinsbold"
+                android:text="@string/led_09"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:thumb="@drawable/ellipse1"
+                android:track="@drawable/kompresorswitch" />
+
+            <Switch
+                android:id="@+id/switch36"
+                android:layout_width="160dp"
+                android:layout_height="60dp"
+                android:layout_marginEnd="10dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/poppinsbold"
+                android:text="@string/led_15"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:thumb="@drawable/ellipse1"
+                android:track="@drawable/kompresorswitch" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="6dp"
+            android:orientation="horizontal">
+
+            <Switch
+                android:id="@+id/switch35"
+                android:layout_width="160dp"
+                android:layout_height="60dp"
+                android:layout_marginStart="10dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/poppinsbold"
+                android:text="@string/led_04"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:thumb="@drawable/ellipse1"
+                android:track="@drawable/kompresorswitch" />
+
+            <Switch
+                android:id="@+id/switch34"
+                android:layout_width="160dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/poppinsbold"
+                android:text="@string/led_10"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:thumb="@drawable/ellipse1"
+                android:track="@drawable/kompresorswitch" />
+
+            <Switch
+                android:id="@+id/switch32"
+                android:layout_width="160dp"
+                android:layout_height="60dp"
+                android:layout_marginEnd="10dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/poppinsbold"
+                android:text="@string/led_16"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:thumb="@drawable/ellipse1"
+                android:track="@drawable/kompresorswitch" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout11"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="@+id/linearLayout9"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout9">
+
+        <Switch
+            android:id="@+id/switch26"
+            android:layout_width="160dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="14dp"
+            android:fontFamily="@font/poppinsbold"
+            android:text="@string/led_05"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:thumb="@drawable/ellipse1"
+            android:track="@drawable/kompresorswitch" />
+
+        <Switch
+            android:id="@+id/switch27"
+            android:layout_width="160dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="7dp"
+            android:layout_weight="1"
+            android:fontFamily="@font/poppinsbold"
+            android:text="@string/led_11"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:thumb="@drawable/ellipse1"
+            android:track="@drawable/kompresorswitch" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout12"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="@+id/linearLayout9"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout11">
+
+        <Switch
+            android:id="@+id/switch23"
+            android:layout_width="160dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="10dp"
+            android:layout_weight="1"
+            android:fontFamily="@font/poppinsbold"
+            android:text="@string/led_06"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:thumb="@drawable/ellipse1"
+            android:track="@drawable/kompresorswitch" />
+
+        <Switch
+            android:id="@+id/switch24"
+            android:layout_width="160dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="7dp"
+            android:layout_weight="1"
+            android:fontFamily="@font/poppinsbold"
+            android:text="@string/led_12"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:thumb="@drawable/ellipse1"
+            android:track="@drawable/kompresorswitch" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="64dp"
+        android:background="@drawable/ayargirisbtn"
+        android:text="@string/kaydet"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="@+id/linearLayout9"
+        app:layout_constraintStart_toEndOf="@+id/linearLayout12"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout9" />
+
+    <ImageView
+        android:id="@+id/imageView30"
+        android:layout_width="448dp"
+        android:layout_height="100dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView31"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/huntercunter" />
+
+    <ImageView
+        android:id="@+id/backbutton1"
+        android:layout_width="56dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toStartOf="@+id/textView29"
+        app:layout_constraintHorizontal_bias="0.253"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/back" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

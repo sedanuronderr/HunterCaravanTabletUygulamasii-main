@@ -1,0 +1,123 @@
+<resources>
+    <string name="app_name">HunterCaravanTabletUygulamasii</string>
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string-array name="languages" translatable="false">
+        <item>en</item>
+        <item>ta</item>
+    </string-array>
+
+    <string name="tarih">DATE</string>
+    <string name="kullanici_uygulama_ayarlari">USER APPLICATION SETTINGS</string>
+    <string name="diagnostikmenu">DIAGNOSTIC MENU</string>
+    <string name="buton01">BUTTON 01</string>
+    <string name="buton07">BUTTON 07</string>
+    <string name="buton_13">BUTTON 13</string>
+    <string name="buton_02">BUTTON 02</string>
+    <string name="buton_08">BUTTON 08</string>
+    <string name="buton_14">BUTTON 14</string>
+    <string name="buton_03">BUTTON 03</string>
+    <string name="buton_09">BUTTON 09</string>
+    <string name="buton_15">BUTTON 15</string>
+    <string name="buton_04">BUTTON 04</string>
+    <string name="buton_10">BUTTON 10</string>
+    <string name="buton_16">BUTTON 16</string>
+    <string name="buton_05">BUTTON 05</string>
+    <string name="buton_11">BUTTON 11</string>
+    <string name="buton_17">BUTTON 17</string>
+    <string name="buton_06">BUTTON 06</string>
+    <string name="buton_12">BUTTON 12</string>
+    <string name="buton_18">BUTTON 18</string>
+    <string name="led_01">LED 01</string>
+    <string name="led_07">LED 07</string>
+    <string name="led_13">LED 13</string>
+    <string name="led_02">LED 02</string>
+    <string name="led_08">LED 08</string>
+    <string name="led_14">LED 14</string>
+    <string name="led_03">LED 03</string>
+    <string name="led_09">LED 09</string>
+    <string name="led_15">LED 15</string>
+    <string name="led_04">LED 04</string>
+    <string name="led_10">LED 10</string>
+    <string name="led_16">LED 16</string>
+    <string name="led_05">LED 05</string>
+    <string name="led_11">LED 11</string>
+    <string name="led_06">LED 06</string>
+    <string name="led_12">LED 12</string>
+    <string name="kaydet">SAVE</string>
+    <string name="gel_m_uygulama_ayarlari">ADMIN SETTINGS</string>
+    <string name="cihazi_etkinlestir">ACTIVATE THE DEVICE</string>
+    <string name="kirlisugostergesi">GREY WATER INDICATOR</string>
+    <string name="denge_sistemi">BALANCE SYSTEM</string>
+    <string name="kaydett">SAVE</string>
+    <string name="bluetootheslestirme">" BLUETOOTH PAIRING"</string>
+    <string name="diagnostikmenuu">DIAGNOSTIC MENU</string>
+    <string name="kontrol_akimi_karti">CURRENT CONTROL CARD</string>
+    <string name="ana_sayfa">Home</string>
+    <string name="ayarlar">Settings</string>
+    <string name="aydinlatma">Lighting</string>
+    <string name="denge_sistemii">Balance System</string>
+    <string name="enerji">Energy</string>
+    <string name="aku">Battery</string>
+    <string name="temiz_su">FRESH WATER</string>
+    <string name="gun">Saturday</string>
+    <string name="aku_gerilim">BATTERY VOLTAGE</string>
+    <string name="atik_su">"GREY WATER "</string>
+    <string name="sicaklik">ROOM TEMPERATURE</string>
+    <string name="dis_sicaklik">AMBIENT TEMPERATURE</string>
+    <string name="v">V</string>
+    <string name="derece">°C</string>
+    <string name="ay">May</string>
+    <string name="yil">2023</string>
+    <string name="kullanici_adi">User Name</string>
+    <string name="sifre">Password</string>
+    <string name="giris_yap">LOG IN</string>
+    <string name="yatak_odasi_isiklari_2">BEDROOM (2)</string>
+    <string name="oturma_alani_isiklarilari">SEATING AREA L/R</string>
+    <string name="mutfak_tavan_isiklari">KITCHEN CEILING</string>
+    <string name="yatak_odasi_isiklari_1">BEDROOM (1)</string>
+    <string name="oturma_alani_isiklari_m">SEATING AREA (M)</string>
+    <string name="ic_aydinlatmalar">INTERIOR LIGHTS</string>
+    <string name="mutfak_isiklari">KITCHEN</string>
+    <string name="dis_isiklar_sol">LEFT</string>
+    <string name="dis_isiklari_on">FRONT</string>
+    <string name="park_isiklari_sag">PARKING (RIGHT)</string>
+    <string name="dis_isiklar_sag">RIGHT</string>
+    <string name="dis_isiklar_arka">BACK</string>
+    <string name="park_isiklari_sol">PARKING (LEFT)</string>
+    <string name="sag">RIGHT</string>
+    <string name="sol">LEFT</string>
+    <string name="akuu">BATTERY</string>
+    <string name="gunes_paneli">SOLAR PANEL</string>
+    <string name="aku_gerilimi">VOLTAGE</string>
+    <string name="panel_gerilimi">VOLTAGE</string>
+    <string name="temiz_suu">FRESH WATER</string>
+    <string name="atik_suu">GREY WATER</string>
+    <string name="sicaklik_ve_nem">TEMPERATURE AND HUMIDITY</string>
+    <string name="ic_sicaklik">ROOM TEMPERATURE</string>
+    <string name="diss_sicaklik">AMBIENT TEMPERATURE</string>
+    <string name="ic_nem">ROOM HUMIDITY</string>
+    <string name="usb_kullanimi">USB</string>
+    <string name="hidrofor">WATER BOOSTER</string>
+    <string name="acik">SWITCHED ON</string>
+    <string name="kapali">SWITCHED OFF</string>
+    <string name="gostergeler">Indicators</string>
+    <string name="kontroller">Controller</string>
+
+    <string name="dis_aydinlatmalar">EXTERIOR LIGHTS</string>
+    <string name="uyku_modunu_ayarla">SCREEN TIMEOUT</string>
+    <string name="nem_set_n_ayarla">HUMIDITY SET</string>
+    <string name="gel_m_ayarlar">ADMIN SETTINGS</string>
+    <string name="kaydettt">SAVE</string>
+    <string name="aray_z_d_l">LANGUAGE</string>
+    <string name="kullanici_ayar">RETURN TO USER SETTINGS</string>
+    <string name="kompresor">COMPRESSOR</string>
+    <string name="s_stem_saat">SYSTEM CLOCK</string>
+    <string name="otomat_k_ayarla">AUTO SET</string>
+    <string name="dakika">Minute</string>
+    <string name="Kaydedildi">Saved</string>
+    <!-- TODO: Remove or change this placeholder text -->
+<string name="panelakimi">"CURRENT "</string>
+    <string name="never">Never</string>
+    <string name="iptal">CANCEL</string>
+</resources>
